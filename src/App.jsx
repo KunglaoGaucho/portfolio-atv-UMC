@@ -111,7 +111,9 @@ export default function App() {
           </ul>
           <div className="certs">
             {certificacoes.map((c) => (
-              <img key={c.img} src={c.img} alt={c.alt} />
+              <a key={c.img} href={c.href} target="_blank" rel="noreferrer">
+                <img src={c.img} alt={c.alt} />
+              </a>
             ))}
           </div>
         </Secao>

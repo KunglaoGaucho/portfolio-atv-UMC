@@ -30,8 +30,21 @@ export const certificacoesTexto = [
 ]
 
 export const certificacoes = [
-  { img: '/imagens/practitioner.png', alt: 'Certificação Practitioner' },
-  { img: '/imagens/associate.webp', alt: 'Certificação Associate' },
+  {
+    img: '/imagens/practitioner.png',
+    alt: 'Certificação Cloud Practitioner',
+    href: 'https://www.credly.com/badges/140d9c60-1bb7-4be7-b782-4faed87103cd',
+  },
+  {
+    img: '/imagens/associate.png',
+    alt: 'Certificação Solutions Architect Associate',
+    href: 'https://www.credly.com/badges/26abccc5-f7c8-401d-8473-af64924c2e6f',
+  },
+  {
+    img: '/imagens/professional.png',
+    alt: 'Certificação Solutions Architect Professional',
+    href: 'https://www.credly.com/badges/5ab9304d-0f96-4430-9714-b68e5cd58f91',
+  },
 ]
 
 export const stacks = [
